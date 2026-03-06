@@ -5,9 +5,6 @@
 
 
 
-
-
-
 bool isValidAge;
 int age;
 
@@ -23,5 +20,5 @@ do
         Console.WriteLine("That was an invalid age");
     }
 }
-while (isValidAge ==false);
+while (isValidAge == false);
 Console.WriteLine($"You are {age} years old");
