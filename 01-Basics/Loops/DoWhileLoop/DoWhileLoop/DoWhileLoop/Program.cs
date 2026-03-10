@@ -14,6 +14,8 @@ do
     Console.Write("What is your age: ");
     string ageText = Console.ReadLine();
 
+
+    // TryParse here checking if ageText is valid to convert into an integer. If yes the value of this integer will in in the age variable. 
     isValidAge = int.TryParse(ageText, out age);
     if (!isValidAge)
     {
